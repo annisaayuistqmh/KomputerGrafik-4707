@@ -17,7 +17,7 @@ const Transformation2D = () => {
 
     // Membuat kotak (rectangle) menggunakan Geometry dan Material
     const geometry = new THREE.BoxGeometry(100, 50, 1);
-    const material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
+    const material = new THREE.MeshBasicMaterial({ color: 'skyblue' });
     const rectangle = new THREE.Mesh(geometry, material);
 
     
