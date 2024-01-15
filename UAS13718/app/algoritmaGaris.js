@@ -17,7 +17,7 @@ const AlgoritmaDDA = () => {
         
         const drawDDALine = (x1, y1, x2, y2) => {
         const geometry = new THREE.BufferGeometry();
-        const material = new THREE.LineBasicMaterial({ color: 0x00ff00 });
+        const material = new THREE.LineBasicMaterial({ color: 'skyblue' });
   
         const vertices = [];
         const dx = x2 - x1;
