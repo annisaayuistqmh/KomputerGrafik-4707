@@ -14,7 +14,7 @@ const Transformasi3D = () => {
     renderer.setPixelRatio(window.devicePixelRatio);
 
     const geometry = new THREE.CylinderGeometry();
-    const material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
+    const material = new THREE.MeshBasicMaterial({ color: 'skyblue' });
     const cube = new THREE.Mesh(geometry, material);
     scene.add(cube);
 
