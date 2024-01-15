@@ -19,8 +19,8 @@ const Clipping = () => {
     renderer.setPixelRatio(window.devicePixelRatio)
 
     // Create a cube
-    const geometry = new THREE.BoxGeometry();
-    const material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
+    const geometry = new THREE.TorusGeometry();
+    const material = new THREE.MeshBasicMaterial({ color: 'skyblue' });
     const cube = new THREE.Mesh(geometry, material);
     scene.add(cube);
 
