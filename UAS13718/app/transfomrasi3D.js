@@ -23,8 +23,8 @@ const Transformasi3D = () => {
     const animate = () => {
       requestAnimationFrame(animate);
 
-      // cube.rotation.x += 0.01;
-      // cube.rotation.y += 0.01;
+      cube.rotation.x += 0.01;
+      cube.rotation.y += 0.01;
 
       // Mengatur skala kubus berdasarkan nilai state scale
       cube.scale.set(scale, scale, scale);
